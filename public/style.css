@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.addTransac{
+    width: 30%;
+    border:1px solid grey;
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 0.4rem;
+    text-align: center;
+
+}
+.addTransac input{
+    margin: 20px 30px;
+    display: block;
+    width: 85%;
+    height: 40px;
+
+}
+input[type=radio] {
+    border: 0px;
+    width: 5%;
+    height: 1em;
+}
+.addTransac input::placeholder{
+    font-size: 15px;
+    /* align-items: center; */
+    padding: 0px 15px;
+
+
+}
+.mid{
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+    margin:auto;
+    
+    justify-content: space-between;
+    width: 20%;
+}
+.expense{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+    font-size: 14px;
+
+    
+}
+.span1{
+    color:red;
+    font-weight: 700;
+    font-size: 18px;
+}
+.inc{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+ 
+    font-size: 14px;
+}
+.span2{
+    color:green;
+    font-weight: 700;
+    font-size: 18px;
+}
+.myBut{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+    margin: 10px;
+ 
+    
+}
+.myBut:hover{
+    background-color: white;
+    color: black;
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+.title h1{
+    font-family: 'Alkatra', cursive;
+    font-size: 25px;
+}
+.balance{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top:3rem;
+    text-align: center;
+    justify-content: space-between
+ 
+}
+.innerBalance{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Alkatra', cursive;
+ 
+    gap:1rem;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+.balance button{
+    background-color: black;
+    color:white;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+/* .addTransac button{
+    background-color: black;
+    margin: auto;
+    color:white;
+    width: 5rem;
+    align-items: center;
+    height: 2rem;
+    border-radius: 10px;
+} */
+.balance button:hover{
+    background-color: white;
+    color: black;
+}
+
+.transt{
+    width: 50%;
+    margin:auto;
+    margin-top: 20px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.transt p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive;
+    font-weight: 500;
+}
+.transt input{
+ background-color: rgb(227, 227, 227);
+ border-radius: 10px;
+ outline: none;
+ width: 50%;
+ align-items: center;
+ justify-content: center;
+ text-align: left;
+ margin:auto;
+ border: none;
+ height: 2.4rem;
+}
+
+.transt input::placeholder{
+    font-size: 15px;
+    /* align-items: center; */
+    padding: 0px 15px;
+
+
+}
+.cells{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 100px;
+    color: black;
+}
